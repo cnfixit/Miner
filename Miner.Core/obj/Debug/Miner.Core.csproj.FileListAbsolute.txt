@@ -1,0 +1,5 @@
+D:\wx\projects\Miner\Miner\bin\Debug\Miner.Core.dll
+D:\wx\projects\Miner\Miner\bin\Debug\Miner.Core.pdb
+D:\wx\projects\Miner\Miner.Core\obj\Debug\ResolveAssemblyReference.cache
+D:\wx\projects\Miner\Miner.Core\obj\Debug\Miner.Core.dll
+D:\wx\projects\Miner\Miner.Core\obj\Debug\Miner.Core.pdb

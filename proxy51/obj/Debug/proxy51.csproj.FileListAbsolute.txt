@@ -1,0 +1,11 @@
+D:\wx\bin\Debug\res\proxy51.dll
+D:\wx\bin\Debug\res\proxy51.pdb
+D:\wx\projects\Miner\proxy51\obj\Debug\ResolveAssemblyReference.cache
+D:\wx\projects\Miner\proxy51\obj\Debug\proxy51.dll
+D:\wx\projects\Miner\proxy51\obj\Debug\proxy51.pdb
+D:\wx\Miner\bin\Debug\res\proxy51.dll
+D:\wx\Miner\bin\Debug\res\proxy51.pdb
+D:\wx\projects\Miner\bin\Debug\res\proxy51.dll
+D:\wx\projects\Miner\bin\Debug\res\proxy51.pdb
+D:\wx\projects\Miner\Miner\bin\Debug\res\proxy51.dll
+D:\wx\projects\Miner\Miner\bin\Debug\res\proxy51.pdb

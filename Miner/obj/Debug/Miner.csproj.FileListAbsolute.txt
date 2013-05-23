@@ -1,0 +1,10 @@
+D:\wx\projects\Miner\Miner\obj\Debug\ResolveAssemblyReference.cache
+D:\wx\projects\Miner\Miner\obj\Debug\Miner.Main.resources
+D:\wx\projects\Miner\Miner\obj\Debug\Miner.Properties.Resources.resources
+D:\wx\projects\Miner\Miner\obj\Debug\Miner.csproj.GenerateResource.Cache
+D:\wx\projects\Miner\Miner\bin\Debug\Miner.exe
+D:\wx\projects\Miner\Miner\bin\Debug\Miner.pdb
+D:\wx\projects\Miner\Miner\obj\Debug\Miner.exe
+D:\wx\projects\Miner\Miner\obj\Debug\Miner.pdb
+D:\wx\projects\Miner\Miner\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\wx\projects\Miner\Miner\bin\Debug\Miner.Core.pdb

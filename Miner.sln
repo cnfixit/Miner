@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Miner", "Miner\Miner.csproj", "{FF866D6E-A87E-4CF7-88C6-34BC6F92D879}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "proxy51", "proxy51\proxy51.csproj", "{14B91AE9-14D8-4CA5-9BE4-D3297D207DF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Miner.Core", "Miner.Core\Miner.Core.csproj", "{4F468A15-F9B9-4F01-9EE8-1DEACB07DE2A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF866D6E-A87E-4CF7-88C6-34BC6F92D879}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF866D6E-A87E-4CF7-88C6-34BC6F92D879}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF866D6E-A87E-4CF7-88C6-34BC6F92D879}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF866D6E-A87E-4CF7-88C6-34BC6F92D879}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14B91AE9-14D8-4CA5-9BE4-D3297D207DF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14B91AE9-14D8-4CA5-9BE4-D3297D207DF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14B91AE9-14D8-4CA5-9BE4-D3297D207DF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14B91AE9-14D8-4CA5-9BE4-D3297D207DF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F468A15-F9B9-4F01-9EE8-1DEACB07DE2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F468A15-F9B9-4F01-9EE8-1DEACB07DE2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F468A15-F9B9-4F01-9EE8-1DEACB07DE2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F468A15-F9B9-4F01-9EE8-1DEACB07DE2A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
