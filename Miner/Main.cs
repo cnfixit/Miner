@@ -81,14 +81,14 @@ namespace Miner
 
         private void start()
         {
-            Thread t = new Thread(new ThreadStart(getproxylist));
+            Thread t = new Thread(new ThreadStart(GetProxyList));
             t.Start();
         }
 
 
 
 
-        private void getproxylist()
+        private void GetProxyList()
         {
             string[] files = Directory.GetFiles(path, "*.dll");
             IProxy pro = null;
@@ -109,9 +109,36 @@ namespace Miner
         void pro_ProxyListHasGot(object sender, ProxyListEventArgs e)
         {
             this.lbRes.Items.Add("Load item:" + e.ProxyList.Count.ToString());
-            //throw new NotImplementedException();
+            Thread t = new Thread(new ParameterizedThreadStart(AccessTarget));
+            t.Start(e.ProxyList);
         }
 
+
+        private void AccessTarget(object obj)
+        {
+            List<ProxyData> list = obj as List<ProxyData>;
+            if (list == null)
+                return;
+
+            HttpClient client = new HttpClient();
+            foreach (ProxyData pd in list)
+            {
+                
+                client.IsProxy = true;
+                client.ProxyHost = pd.ProxyHost;
+                client.ProxyPort = pd.ProxyPort;
+
+                client.AllowAutoRedirect = true;
+
+                client.UriString = "http://www.ttx123.cn/?u=cnfixit";
+
+                string res = client.GetString();
+
+                this.lbRes.Items.Add(client.StatusCode + res);
+
+                Thread.Sleep(new Random().Next(1,10)*1000);
+            }
+        }
       
 
 
